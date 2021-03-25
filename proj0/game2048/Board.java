@@ -57,13 +57,15 @@ public class Board implements Iterable<Tile> {
     }
 
     /** Return the current Tile at (COL, ROW), when sitting with the board
-     *  oriented so that SIDE is at the top (farthest) from you. */
+     *  oriented so that SIDE is at the top (farthest) from you.
+     */
     private Tile vtile(int col, int row, Side side) {
         return values[side.col(col, row, size())][side.row(col, row, size())];
     }
 
     /** Return the current Tile at (COL, ROW), where 0 <= ROW < size(),
-     *  0 <= COL < size(). Returns null if there is no tile there. */
+     *  0 <= COL < size(). Returns null if there is no tile there.
+     */
     public Tile tile(int col, int row) {
         return vtile(col, row, viewPerspective);
     }
@@ -86,13 +88,13 @@ public class Board implements Iterable<Tile> {
      * Returns whether or not this move is a merge.
      * */
     public boolean move(int col, int row, Tile tile) {
-        int pcol = viewPerspective.col(col, row, size()),
-                prow = viewPerspective.row(col, row, size());
+        int pcol = viewPerspective.col(col, row, size()),  // target col in viewPerspective
+                prow = viewPerspective.row(col, row, size());  // target row in viewPerspective
         if (tile.col() == pcol && tile.row() == prow) {
             return false;
         }
         Tile tile1 = vtile(col, row, viewPerspective);
-        values[tile.col()][tile.row()] = null;
+        values[tile.col()][tile.row()] = null;  // once we call the move, the current position will be set to null
 
         if (tile1 == null) {
             values[pcol][prow] = tile.move(pcol, prow);

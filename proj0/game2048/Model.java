@@ -1,11 +1,12 @@
 package game2048;
 
+import javax.imageio.stream.ImageInputStream;
 import java.util.Formatter;
 import java.util.Observable;
 
 
 /** The state of a game of 2048.
- *  @author TODO: YOUR NAME HERE
+ *  @author Bill Zhan
  */
 public class Model extends Observable {
     /** Current contents of the board. */
@@ -107,17 +108,70 @@ public class Model extends Observable {
      *    and the trailing tile does not.
      * */
     public boolean tilt(Side side) {
-        boolean changed;
-        changed = false;
+        boolean changed = false;
 
-        // TODO: Modify this.board (and perhaps this.score) to account
+        // TODO: ? Modify this.board (and perhaps this.score) to account
+
+        /* board will not change iff there is no move exists */
+//        changed = atLeastOneMoveExists(board);
+
+        /* set new view */
+        board.setViewingPerspective(side);
+
+        /* use an array to store the farthest row that can move to */
+        int[] farthestTop = new int[board.size()];
+        for (int i = 0; i < board.size(); i++) {
+            farthestTop[i] = board.size()-1;
+        }
+
+        /* loop from the second row (row size-2), move them to farthest top */
+        for (int row = board.size()-2; row >= 0; row--) {
+            for (int col = 0; col < board.size(); col++) {
+                /* corner case: no need to do anything if current tile null */
+                Tile currTile = board.tile(col, row);
+                if (currTile == null) { continue; }
+
+                /* declare variable */
+                int topRow = farthestTop[col];  // the top possible row that can move t
+                int currVal = currTile.value();
+                boolean isTopRowValid;
+
+
+                /* move top down to a valid row */
+                do {
+                    farthestTop[col] = topRow;
+                    Tile topTile = board.tile(col, topRow);
+                    isTopRowValid = (topTile == null || topTile.value() == currVal);
+                    topRow -= 1;
+                } while (!(isTopRowValid || topRow == 0));
+
+                /* try moving */
+                boolean merged =  board.move(col, farthestTop[col], currTile);
+                if (merged) {
+                    /* update score */
+                    score += currVal*2;
+                    if (farthestTop[col] > 0) {
+                        farthestTop[col] -= 1;
+                    }
+                }
+
+                /* check if moved */
+                boolean ifMoved = board.tile(col, row) == null;
+                if (ifMoved) { changed = true; }
+            }
+        }
+
+
         // for the tilt to the Side SIDE. If the board changed, set the
         // changed local variable to true.
-
         checkGameOver();
         if (changed) {
             setChanged();
         }
+
+        // set the view back to ordinary north
+        board.setViewingPerspective(Side.NORTH);
+
         return changed;
     }
 
@@ -133,21 +187,55 @@ public class Model extends Observable {
         return maxTileExists(b) || !atLeastOneMoveExists(b);
     }
 
-    /** Returns true if at least one space on the Board is empty.
-     *  Empty spaces are stored as null.
-     * */
+    /**
+     * Returns true if at least one space on the Board is empty.
+     * Empty spaces are stored as null.
+     *
+     */
     public static boolean emptySpaceExists(Board b) {
-        // TODO: Fill in this function.
+        // TODO: ! Completed emptySpaceExists
+        /**Check if any of the tiles is null
+         *
+         * Given a Board b, use the tile(int col, int row) and size method to check
+         * if any of the tiles is null.
+         *
+         * @param Board b:
+         *              an object from the Board class.
+         * @return boolean:
+         *              true - any tile is null.
+         */
+        int bSize = b.size();
+        for (int i = 0; i < bSize; i++) {
+            for (int j = 0; j < bSize; j++) {
+                if (b.tile(j, i) == null) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
     /**
      * Returns true if any tile is equal to the maximum valid value.
      * Maximum valid value is given by MAX_PIECE. Note that
-     * given a Tile object t, we get its value with t.value().
+     * given a Tile object t, we get its value with t.value()
+     * @param b: Board
+     *         a Board object
+     *
+     * @return boolean: true if any tile == MAX_PIECE
      */
     public static boolean maxTileExists(Board b) {
-        // TODO: Fill in this function.
+        // TODO: ! Completed maxTileExists
+        for (int i = 0; i < b.size(); i++) {
+            for (int j = 0; j < b.size(); j++) {
+                Tile currTile = b.tile(j, i);
+                if (currTile == null) { continue; }
+                int tileVal = currTile.value();
+                if (tileVal == MAX_PIECE) {
+                    return true;
+                }
+            }
+        }
         return false;
     }
 
@@ -158,7 +246,41 @@ public class Model extends Observable {
      * 2. There are two adjacent tiles with the same value.
      */
     public static boolean atLeastOneMoveExists(Board b) {
-        // TODO: Fill in this function.
+        // TODO: ! Completed atLeastOneMoveExists
+        // 1. there is at least one empty space
+        if (emptySpaceExists(b)) {
+            return true;
+        }
+
+        // 2. there are two adjacent tiles with the same value
+        int[]   up = new int[] {-1, 0},
+                down = new int[] {1, 0},
+                left = new int[] {0, -1},
+                right = new int[] {0, 1};
+        int[][] dirs = new int[][] {up, down, left, right};
+
+        for (int i = 0; i < b.size(); i++) {
+            for (int j = 0; j < b.size(); j++) {
+                // current row and column and tile
+                int row = i, col = j;
+                Tile currTile = b.tile(j, i);
+                // adjacent tile
+                for (int[] d: dirs) {
+                    // check if new tile is valid
+                    boolean isNewTileInRange =
+                            0 <= d[0] + row && d[0] + row < b.size() &&  // valid row
+                            0 <= d[1] + col && d[1] + col < b.size(); // valid col
+                    if (isNewTileInRange) {
+                        Tile newTile = b.tile(d[1] + col, d[0] + row);
+                        int currVal = currTile.value(), newVal = newTile.value();
+                        if (currVal == newVal) {
+                            return true;
+                        }
+                    }
+                }
+            }
+        }
+
         return false;
     }
 
