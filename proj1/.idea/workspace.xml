@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2471d287-1b80-460e-8c73-7bf0c58408a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_Jama_1_0_3_jar_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHgjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHjpt_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHtools_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHucb_checkstyle_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHucb_f2007_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_PNHucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_algs4_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_checkstyle_5_9_all_jar_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_checkstyle_7_4_all_jar_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_classmexer_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_commons_math3_3_6_jar_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_gjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_gson_2_8_2_jar_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_hamcrest_core_1_3_jar_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_jetty_http_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_jetty_io_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_jetty_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_jetty_util_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_jh61b_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_junit_4_12_jar_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_servlet_api_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_slf4j_api_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_slf4j_simple_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_spark_core_2_3_jar_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_stdlib_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_stdlib_package_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_ucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_websocket_api_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_websocket_client_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_websocket_common_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_websocket_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_websocket_servlet_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/libraries/Maven__CS61B_xchart_3_5_1_jar_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/lab2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/Arithmetic/Arithmetic.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/Arithmetic/ArithmeticTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/DebugExercise/DebugExercise1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/DebugExercise/DebugExercise2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/AddConstantTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/IntListExercises.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/Primes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/SetToZeroIfMaxFELTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2/target/classes/IntList/SquarePrimesTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_Jama_1_0_3_jar_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHgjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHjpt_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHtools_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHucb_checkstyle_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHucb_f2007_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_PNHucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_algs4_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_checkstyle_5_9_all_jar_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_checkstyle_7_4_all_jar_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_classmexer_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_commons_math3_3_6_jar_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_gjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_gson_2_8_2_jar_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_hamcrest_core_1_3_jar_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_jetty_http_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_jetty_io_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_jetty_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_jetty_util_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_jh61b_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_junit_4_12_jar_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_servlet_api_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_slf4j_api_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_slf4j_simple_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_spark_core_2_3_jar_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_stdlib_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_stdlib_package_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_ucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_websocket_api_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_websocket_client_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_websocket_common_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_websocket_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_websocket_servlet_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/libraries/Maven__CS61B_xchart_3_5_1_jar_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/lab2setup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/target/classes/Dog/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab2setup/target/classes/Dog/DogTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_Jama_1_0_3_jar_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHgjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHjpt_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHtools_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHucb_checkstyle_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHucb_f2007_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_PNHucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_algs4_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_checkstyle_5_9_all_jar_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_checkstyle_7_4_all_jar_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_classmexer_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_commons_math3_3_6_jar_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_gjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_gson_2_8_2_jar_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_hamcrest_core_1_3_jar_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_jetty_http_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_jetty_io_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_jetty_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_jetty_util_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_jh61b_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_junit_4_12_jar_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_servlet_api_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_slf4j_api_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_slf4j_simple_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_spark_core_2_3_jar_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_stdlib_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_stdlib_package_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_ucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_websocket_api_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_websocket_client_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_websocket_common_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_websocket_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_websocket_servlet_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/libraries/Maven__CS61B_xchart_3_5_1_jar_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/randomizedtest/AListNoResizing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/randomizedtest/BuggyAList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/randomizedtest/TestBuggyAList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/AList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/SLList$IntNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/SLList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/StopwatchDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/TimeAList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab3/target/classes/timingtest/TimeSLList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/libraries/javalib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/game2048/game2048.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/libraries/javalib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Board$AllTileIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Board.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/BoardLogger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/BoardWidget.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/GUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/GUISource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Game.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/InputSource.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Model.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Side.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestAtLeastOneMoveExists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestEmptySpace.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestMaxTileExists.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestModel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestTile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestUpOnly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/TestUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/Tile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/game2048/game2048.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/javalib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/javalib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/javalib/ucb.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/out/production/proj0/proj0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proj0/proj0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_Jama_1_0_3_jar_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHgjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHjpt_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHtools_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHucb_checkstyle_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHucb_f2007_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_PNHucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_algs4_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_checkstyle_5_9_all_jar_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_checkstyle_7_4_all_jar_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_classmexer_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_commons_math3_3_6_jar_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_gjdb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_gson_2_8_2_jar_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_hamcrest_core_1_3_jar_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_jetty_http_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_jetty_io_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_jetty_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_jetty_util_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_jh61b_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_junit_4_12_jar_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_servlet_api_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_slf4j_api_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_slf4j_simple_1_7_26_jar_1_7_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_spark_core_2_3_jar_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_stdlib_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_stdlib_package_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_ucb_jar_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_websocket_api_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_websocket_client_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_websocket_common_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_websocket_server_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_websocket_servlet_9_4_15_v20190215_jar_9_4_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__CS61B_xchart_3_5_1_jar_3_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_13_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_common_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_4_20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/proj1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/ArrayDeque$ArrayDequeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/ArrayDeque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/ArrayDequeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/Deque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/LinkedListDeque$LinkedListDequeIterator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/LinkedListDeque$ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/LinkedListDeque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/LinkedListDequeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/MaxArrayDeque.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/MaxArrayDequeTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/MaxArrayDequeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/Vehicle$MakeComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/Vehicle$YearComparator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/deque/Vehicle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/GuitarHero.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/GuitarHeroLite.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/GuitarPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/GuitarString.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/TTFAF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/gh2/TestGuitarString.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="$PROJECT_DIR$/../library-sp21/javalib" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qXNFh4Y38FuLIYIkpN7KYUajrI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="deque" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gh2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GuitarHero">
+    <configuration name="GuitarHero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gh2.GuitarHero" />
+      <module name="proj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gh2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GuitarHeroLite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gh2.GuitarHeroLite" />
+      <module name="proj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gh2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TTFAF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gh2.TTFAF" />
+      <module name="proj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gh2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGuitarString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gh2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gh2" />
+      <option name="MAIN_CLASS_NAME" value="gh2.TestGuitarString" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGuitarString.testPluckTheAString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gh2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gh2" />
+      <option name="MAIN_CLASS_NAME" value="gh2.TestGuitarString" />
+      <option name="METHOD_NAME" value="testPluckTheAString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GuitarHero" />
+        <item itemvalue="Application.GuitarHeroLite" />
+        <item itemvalue="Application.TTFAF" />
+        <item itemvalue="JUnit.TestGuitarString.testPluckTheAString" />
+        <item itemvalue="JUnit.TestGuitarString" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2471d287-1b80-460e-8c73-7bf0c58408a2" name="Default Changelist" comment="" />
+      <created>1617221873402</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617221873402</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/deque/ArrayDequeTest.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
